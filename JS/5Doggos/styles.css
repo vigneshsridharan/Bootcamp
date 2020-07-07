@@ -1,0 +1,55 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-image: linear-gradient(rgba(167, 164, 167, 0.4), rgba(158, 154, 158, 0.5)), url('https://avante.biz/wp-content/uploads/Cute-Pictures-Of-Puppies-Wallpapers/Cute-Pictures-Of-Puppies-Wallpapers-006.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    background-attachment: fixed;
+    margin:0 auto;
+}
+
+.breed-header {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #F2AC29;
+    color: white;
+    border-radius: 3px;
+    padding:0 10px;
+    margin:0;
+}
+
+.doggos {
+    display: flex;
+    margin: 0 auto;
+    margin-top: 50px;
+    justify-content: center;
+    max-width: 70%;
+    max-height: 80%;
+}
+
+@keyframes spin {
+    to {
+        transform: rotateZ(360deg);
+    }
+}
+
+.spinner {
+    font-size: 50px;
+    text-align: center;
+    animation: 2s spin linear;
+    display: none;
+    z-index: 10;
+}
+
+.dog-img {
+    display: none;
+}
+
+.show {
+    display: block;
+}

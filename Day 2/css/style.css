@@ -1,0 +1,73 @@
+/* My First CSS */
+
+body {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    /* background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(http://placekitten.com/3000/2000); */
+    background-color: #AB05F2;
+    background-size: cover;
+    background-position: center;
+    color: #D7F205;
+}
+
+img {
+    border: 10px solid green;
+}
+
+.kittyimg {
+    display: block;
+    margin-left: auto;
+}
+
+h1 {
+    border: 2px solid red;
+    text-align: center;
+}
+
+h2 {
+    color: whitesmoke;
+}
+
+blockquote {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 3rem;
+    font-style: italic;
+    text-align: center;
+    color: gold;
+}
+
+blockquote cite {
+    font-size: 2rem;
+}
+
+.bigbold {
+    font-weight: bold;
+    font-size: 1.3rem;
+    color: yellowgreen;
+}
+
+p {
+    line-height: 1.3rem;
+}
+
+ul a:link {
+    font-weight: bold;
+    text-decoration: none;
+    color: pink;
+    font-size: 2rem;
+}
+
+a:visited {
+    color:green;
+    font-weight: normal;
+}
+
+a:hover {
+    color: yellow;
+    background-color: black;
+}
+
+p:hover {
+    background-color: cadetblue;
+    color: orange;
+}
+
